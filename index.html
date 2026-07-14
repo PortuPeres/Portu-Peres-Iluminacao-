@@ -26,7 +26,7 @@ body {font-family:'Inter',sans-serif;background:#fff;color:var(--cinza-tech);lin
 .badges {display:flex;flex-wrap:wrap;gap:12px;margin:25px 0}
 .badge {background:var(--cinza-light);border:1px solid #E2E8F0;padding:8px 16px;border-radius:50px;font-size:0.9rem;font-weight:500}
 .cta-group {display:flex;gap:16px;margin:30px 0}
-.btn {padding:14px 28px;border-radius:8px;text-decoration:none;font-weight:600;font-size:1rem;transition:all 0.3s}
+.btn {padding:14px 28px;border-radius:8px;text-decoration:none;font-weight:600;font-size:1rem;transition:all 0.3s;display:inline-block}
 .btn-primary {background:var(--azul-portu);color:#fff}
 .btn-primary:hover {background:#051B32;transform:translateY(-2px)}
 .btn-secondary {background:#fff;color:var(--azul-portu);border:2px solid var(--azul-portu)}
@@ -38,55 +38,42 @@ body {font-family:'Inter',sans-serif;background:#fff;color:var(--cinza-tech);lin
 .spec-card {background:var(--cinza-light);padding:20px;border-radius:12px;border:1px solid #E2E8F0}
 .spec-card h4 {font-size:0.75rem;color:#64748B;text-transform:uppercase;letter-spacing:1px;margin-bottom:8px}
 .spec-card p {font-size:1.3rem;font-weight:700;color:var(--azul-portu)}
+.section {margin:80px 0}
+.section h2 {font-size:2.2rem;color:var(--azul-portu);margin-bottom:20px;text-align:center}
+.section p {text-align:center;color:#475569;max-width:700px;margin:0 auto 40px}
+.grid-3 {display:grid;grid-template-columns:repeat(3,1fr);gap:30px}
+.card {background:#fff;border:1px solid #E2E8F0;border-radius:12px;padding:30px;text-align:center}
+.card h3 {color:var(--azul-portu);margin:15px 0 10px;font-size:1.2rem}
+.footer {background:var(--azul-portu);color:#fff;text-align:center;padding:40px 20px;margin-top:80px}
+.footer a {color:var(--dourado-portu);text-decoration:none}
 @media (max-width:900px){
 .hero {grid-template-columns:1fr;gap:40px}
 .hero h1 {font-size:2.5rem}
-.specs {grid-template-columns:1fr}
+.specs, .grid-3 {grid-template-columns:1fr}
+.cta-group {flex-direction:column}
 }
 </style>
 </head>
 <body>
 <div class="container">
-<div class="hero">
-<div>
-<h1>CATÁLOGO TÉCNICO<span>LUMINÁRIAS HERMÉTICAS LED</span></h1>
-<p>Projetadas para <strong>Ambientes Críticos | Indústria de Polpas de Frutas e Sucos.</strong> Vedação total, lavagem com jato, operação em câmara fria -20°C e áreas de pasteurização.</p>
+  <div class="hero">
+    <div>
+      <h1>CATÁLOGO TÉCNICO<span>LUMINÁRIAS HERMÉTICAS LED</span></h1>
+      <p>Projetadas para <strong>Ambientes Críticos | Indústria de Polpas de Frutas e Sucos.</strong> Vedação total, lavagem com jato, operação em câmara fria -20°C e áreas de pasteurização.</p>
 
-<div class="badges">
-<div class="badge">IP66 • NBR IEC 60529</div>
-<div class="badge">IK08 • NBR IEC 62262</div>
-<div class="badge">20W • 2.200lm | 40W • 4.400lm</div>
-<div class="badge">Pronta para Washdown</div>
-</div>
+      <div class="badges">
+        <div class="badge">IP66 • NBR IEC 60529</div>
+        <div class="badge">IK08 • NBR IEC 62262</div>
+        <div class="badge">20W • 2.200lm | 40W • 4.400lm</div>
+        <div class="badge">Pronta para Washdown</div>
+      </div>
 
-<div class="cta-group">
-<a href="https://wa.me/5511999999999?text=Quero%20orçamento%20técnico%20para%20indústria%20de%20polpas" class="btn btn-primary">Solicitar Orçamento Técnico →</a>
-<a href="#especificacao" class="btn btn-secondary">Ver Especificação para Compras</a>
-</div>
+      <div class="cta-group">
+        <a href="https://wa.me/5511999999999?text=Quero%20orçamento%20técnico%20para%20indústria%20de%20polpas" class="btn btn-primary">Solicitar Orçamento Técnico →</a>
+        <a href="#especificacao" class="btn btn-secondary">Ver Especificação para Compras</a>
+      </div>
 
-<div class="specs">
-<div class="spec-card">
-<h4>Vida Útil</h4>
-<p>>50.000h L70</p>
-</div>
-<div class="spec-card">
-<h4>Garantia</h4>
-<p>3 anos</p>
-</div>
-<div class="spec-card">
-<h4>Operação</h4>
-<p>-20°C a +50°C</p>
-</div>
-
-<div>
-<div class="product-img">
-<div class="tag-ip">IP66 | IK08</div>
-<img src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=600&h=400&fit=crop" alt="Luminária Hermética LED Portu Peres">
-<p style="margin-top:15px;font-size:0.85rem;color:#64748B;text-align:left">
-<strong>PRODUTO REAL • FOTO DE FÁBRICA</strong><br>
-LHT-20 / LHT-40 • Policarbonato V0 • Inox A2
-</p>
-</div>
-<div class="label">ENGENHARIA • SEGURANÇA ALIMENTAR • CONFORMIDADE</div>
-</body>
-</html>
+      <div class="specs">
+        <div class="spec-card">
+          <h4>Vida Útil</h4>
+          <p>>50.000h L70</p>
