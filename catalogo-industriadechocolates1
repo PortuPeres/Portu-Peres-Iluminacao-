@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proposta Luminárias Herméticas LED - Indústria de Chocolates | Cido</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        :root {
+            --choco: #5D4037;
+            --choco-dark: #3E2723;
+            --gold: #D4A017;
+            --gold-light: #F5D37B;
+        }
+        body { font-family: 'Poppins', sans-serif; background-color: #FCFAF8; color: #2d2d2d; }
+        h1, h2, h3 { font-family: 'Outfit', sans-serif; }
+        .text-choco { color: var(--choco); }
+        .bg-choco { background-color: var(--choco); }
+        .bg-choco-dark { background-color: var(--choco-dark); }
+        .text-gold { color: var(--gold); }
+        .bg-gold { background-color: var(--gold); }
+        .border-gold { border-color: var(--gold); }
+        .hero-pattern {
+            background-image: radial-gradient(circle at 1px 1px, rgba(212,160,23,0.15) 1px, transparent 0);
+            background-size: 24px 24px;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- HEADER -->
+    <header class="fixed top-0 w-full z-50 bg-white/80 backdrop-blur-lg border-b border-stone-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-[72px] flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <div class="w-9 h-9 bg-choco rounded-lg flex items-center justify-center">
+                    <i data-lucide="lightbulb" class="w-5 h-5 text-gold"></i>
+                </div>
+                <div>
+                    <p class="font-bold text-choco leading-none">Cido</p>
+                    <p class="text-[11px] text-stone-500 leading-none tracking-widest">MKT CIDOVELEIROS</p>
+                </div>
+            </div>
+            <a href="https://wa.me/5511999999999?text=Olá%2C%20quero%20agendar%20uma%20visita%20técnica%20para%20luminárias%20de%20chocolate" target="_blank" class="hidden sm:flex items-center gap-2 bg-gold hover:bg-[#b8860b] text-white font-semibold px-5 py-2.5 rounded-full transition-all shadow-lg shadow-amber-900/20">
+                <i data-lucide="whatsapp" class="w-4 h-4"></i>
+                Agendar Visita
+            </a>
+        </div>
+    </header>
+
+    <!-- 1. CAPA -->
+    <section class="relative min-h-[100vh] flex items-center pt-20 bg-choco-dark overflow-hidden">
+        <div class="absolute inset-0 hero-pattern opacity-40"></div>
+        <div class="absolute -top-40 -right-40 w-[600px] h-[600px] bg-gold/20 rounded-full blur-[120px]"></div>
+        <div class="absolute -bottom-40 -left-40 w-[500px] h-[500px] bg-[#8D6E63]/30 rounded-full blur-[100px]"></div>
+        
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 w-full">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <div class="inline-flex items-center gap-2 bg-white/10 border border-white/20 text-gold-light px-4 py-1.5 rounded-full text-xs font-medium mb-6">
+                        <i data-lucide="shield-check" class="w-3.5 h-3.5"></i>
+                        PROPOSTA TÉCNICA EXCLUSIVA
+                    </div>
+                    <h1 class="text-4xl md:text-6xl lg:text-[68px] font-extrabold leading-[0.9] text-white tracking-tight">
+                        Iluminação Segura
+                        <span class="block text-gold">para Quem Produz Doçura</span>
+                    </h1>
+                    <p class="mt-6 text-lg md:text-xl text-stone-200 max-w-xl">Luminárias Herméticas LED de Alta Performance para Indústrias de Chocolates</p>
+                    
+                    <div class="mt-10 flex flex-wrap gap-4">
+                        <div class="bg-white/5 backdrop-blur border border-white/10 rounded-2xl px-5 py-3">
+                            <p class="text-xs text-stone-300">Produzido no Brasil por</p>
+                            <p class="font-semibold text-white">Jose Aparecido Silva Cido</p>
+                        </div>
+                        <div class="bg-white/5 backdrop-blur border border-white/10 rounded-2xl px-5 py-3">
+                            <p class="text-xs text-stone-300">IP69K • ANVISA • MAPA</p>
+                            <p class="font-semibold text-white">Pronto para auditoria</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="relative">
+                    <div class="relative bg-gradient-to-b from-stone-800 to-stone-900 rounded-[2rem] p-8 border border-white/10 shadow-2xl">
+                        <div class="absolute inset-0 bg-[linear-gradient(to_right,#ffffff08_1px,transparent_1px),linear-gradient(to_bottom,#ffffff08_1px,transparent_1px)] bg-[size:40px_40px] rounded-[2rem]"></div>
+                        <div class="relative">
+                            <!-- LUMINARIA SVG -->
+                            <svg viewBox="0 0 600 300" class="w-full h-auto drop-shadow-2xl">
+                                <defs>
+                                    <linearGradient id="body" x1="0" x2="0" y1="0" y2="1">
+                                        <stop offset="0%" stop-color="#E5E7EB"/>
+                                        <stop offset="100%" stop-color="#9CA3AF"/>
+                                    </linearGradient>
+                                    <linearGradient id="light" x1="0" x2="0" y1="0" y2="1">
+                                        <stop offset="0%" stop-color="#FFF8E1" stop-opacity="0.9"/>
+                                        <stop offset="100%" stop-color="#D4A017" stop-opacity="0.6"/>
+                                    </linearGradient>
+                                    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+                                        <feGaussianBlur stdDeviation="20" result="coloredBlur"/>
+                                        <feMerge>
+                                            <feMergeNode in="coloredBlur"/>
+                                            <feMergeNode in="SourceGraphic"/>
+                                        </feMerge>
+                                    </filter>
+                                </defs>
+                                <rect x="20" y="80" width="560" height="80" rx="20" fill="url(#body)" stroke="#6B7280" stroke-width="2"/>
+                                <rect x="40" y="100" width="520" height="40" rx="12" fill="url(#light)" filter="url(#glow)"/>
+                                <rect x="30" y="70" width="40" height="20" rx="6" fill="#374151"/>
+                                <rect x="530" y="70" width="40" height="20" rx="6" fill="#374151"/>
+                                <circle cx="60" cy="140" r="4" fill="#D4A017"/>
+                                <circle cx="540" cy="140" r="4" fill="#D4A017"/>
+                                <text x="300" y="200" text-anchor="middle" fill="#D4A017" font-family="Outfit" font-size="14" letter-spacing="4">IP69K • HERMÉTICA</text>
+                            </svg>
+                            <div class="grid grid-cols-3 gap-3 mt-6">
+                                <div class="bg-black/40 rounded-xl p-3 text-center border border-white/10">
+                                    <p class="text-gold font-bold text-xl">IP69K</p>
+                                    <p class="text-[10px] text-stone-400 uppercase tracking-wider">Jato Vapor</p>
+                                </div>
+                                <div class="bg-black/40 rounded-xl p-3 text-center border border-white/10">
+                                    <p class="text-gold font-bold text-xl">80°C</p>
+                                    <p class="text-[10px] text-stone-400 uppercase tracking-wider">Resistente</p>
+                                </div>
+                                <div class="bg-black/40 rounded-xl p-3 text-center border border-white/10">
+                                    <p class="text-gold font-bold text-xl">50k h</p>
+                                    <p class="text-[10px] text-stone-400 uppercase tracking-wider">Vida Útil</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. O DESAFIO -->
+    <section class="py-20 lg:py-28 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-3xl">
+                <span class="text-gold font-semibold tracking-widest text-sm">O DESAFIO DO CHOCOLATE</span>
+                <h2 class="text-3xl md:text-5xl font-bold text-choco mt-3 leading-tight">Luz comum contamina. Vapor destrói. Auditoria reprova.</h2>
+                <p class="mt-6 text-lg text-stone-600 leading-relaxed">Produzir chocolate exige controle total de temperatura, umidade e higiene. A iluminação tradicional é um ponto crítico de falha: acumula cacau e açúcar nas reentrâncias, não suporta lavagem pressurizada, condensa por dentro, trinca com choque térmico e pode liberar partículas ou estilhaços de vidro sobre a linha.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mt-14">
+                <div class="group p-6 rounded-3xl border border-stone-200 hover:border-amber-300 hover:shadow-xl transition-all bg-gradient-to-b from-white to-stone-50">
+                    <div class="w-12 h-12 rounded-2xl bg-amber-100 text-amber-700 flex items-center justify-center group-hover:scale-110 transition"><i data-lucide="biohazard"></i></div>
+                    <h3 class="font-bold text-choco mt-4">Contaminação Física</h3>
+                    <p class="text-sm text-stone-600 mt-2">Lâmpadas de vidro e reatores soltos são proibidos. Um estouro contamina lote inteiro.</p>
+                </div>
+                <div class="group p-6 rounded-3xl border border-stone-200 hover:border-amber-300 hover:shadow-xl transition-all bg-gradient-to-b from-white to-stone-50">
+                    <div class="w-12 h-12 rounded-2xl bg-amber-100 text-amber-700 flex items-center justify-center group-hover:scale-110 transition"><i data-lucide="droplets"></i></div>
+                    <h3 class="font-bold text-choco mt-4">Umidade e Condensação</h3>
+                    <p class="text-sm text-stone-600 mt-2">Salas de conchagem e câmaras frias geram vapor. IP44 oxida em semanas.</p>
+                </div>
+                <div class="group p-6 rounded-3xl border border-stone-200 hover:border-amber-300 hover:shadow-xl transition-all bg-gradient-to-b from-white to-stone-50">
+                    <div class="w-12 h-12 rounded-2xl bg-amber-100 text-amber-700 flex items-center justify-center group-hover:scale-110 transition"><i data-lucide="spray-can"></i></div>
+                    <h3 class="font-bold text-choco mt-4">Lavagem Pesada</h3>
+                    <p class="text-sm text-stone-600 mt-2">Higienização com jatos a 80°C e químicos exige IP66/IP69K real.</p>
+                </div>
+                <div class="group p-6 rounded-3xl border border-stone-200 hover:border-amber-300 hover:shadow-xl transition-all bg-gradient-to-b from-white to-stone-50">
+                    <div class="w-12 h-12 rounded-2xl bg-amber-100 text-amber-700 flex items-center justify-center group-hover:scale-110 transition"><i data-lucide="clipboard-check"></i></div>
+                    <h3 class="font-bold text-choco mt-4">Exigência ANVISA/MAPA</h3>
+                    <p class="text-sm text-stone-600 mt-2">Equipamentos devem ser lisos, higienizáveis, sem acúmulo, resistentes à corrosão.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. NOSSA SOLUÇÃO -->
+    <section class="py-20 lg:py-28 bg-[#F9F5F0]">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-5 gap-12 items-start">
+                <div class="lg:col-span-2">
+                    <span class="text-gold font-semibold tracking-widest text-sm">NOSSA SOLUÇÃO</span>
+                    <h2 class="text-3xl md:text-4xl font-bold text-choco mt-3">Luminária Hermética LED projetada para alimentos</h2>
+                    <p class="mt-4 text-stone-700">Fabricada no Brasil com foco total em segurança alimentar. Corpo selado, difusor liso sem reentrâncias, vedação de grau alimentício e clips em inox 304. Suporta choque térmico e limpeza com vapor.</p>
+                    
+                    <div class="mt-8 space-y-3">
+                        <div class="flex gap-3"><i data-lucide="check-circle-2" class="w-5 h-5 text-gold mt-0.5 shrink-0"></i><p><strong>Corpo em Policarbonato ou ABS</strong> alto impacto, não enferruja</p></div>
+                        <div class="flex gap-3"><i data-lucide="check-circle-2" class="w-5 h-5 text-gold mt-0.5 shrink-0"></i><p><strong>Difusor liso, sem aletas</strong> – zero acúmulo de pó de cacau</p></div>
+                        <div class="flex gap-3"><i data-lucide="check-circle-2" class="w-5 h-5 text-gold mt-0.5 shrink-0"></i><p><strong>Vedação em silicone</strong> grau alimentício contínua</p></div>
+                        <div class="flex gap-3"><i data-lucide="check-circle-2" class="w-5 h-5 text-gold mt-0.5 shrink-0"></i><p><strong>Clips de fechamento em Inox 304</strong></p></div>
+                        <div class="flex gap-3"><i data-lucide="check-circle-2" class="w-5 h-5 text-gold mt-0.5 shrink-0"></i><p><strong>Driver isolado</strong> com proteção contra surtos</p></div>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-3">
+                    <div class="bg-white rounded-3xl shadow-xl border border-stone-200 overflow-hidden">
+                        <div class="bg-choco px-6 py-4 flex items-center justify-between">
+                            <h3 class="text-white font-bold tracking-wide">ESPECIFICAÇÕES TÉCNICAS</h3>
+                            <span class="text-xs bg-gold text-choco-dark font-bold px-3 py-1 rounded-full">LINHA CHOCOLATE</span>
+                        </div>
+                        <div class="overflow-x-auto">
+                            <table class="w-full text-sm">
+                                <tbody class="divide-y divide-stone-100">
+                                    <tr class="hover:bg-amber-50/50"><td class="py-3 px-6 font-medium text-stone-500 w-1/3">Grau de Proteção</td><td class="py-3 px-6 font-semibold text-choco">IP65 / IP66 / IP69K (jato vapor)</td></tr>
+                                    <tr class="hover:bg-amber-50/50"><td class="py-3 px-6 font-medium text-stone-500">Corpo</td><td class="py-3 px-6 font-semibold text-choco">Policarbonato ou ABS branco, cantos arredondados</td></tr>
+                                    <tr class="hover:bg-amber-50/50"><td class="py-3 px-6 font-medium text-stone-500">Difusor</td><td class="py-3 px-6 font-semibold text-choco">Policarbonato opalino liso, UV, sem reentrâncias</td></tr>
+                                    <tr class="hover:bg-amber-50/50"><td class="py-3 px-6 font-medium text-stone-500">Temperatura</td><td class="py-3 px-6 font-semibold text-choco">-20°C a +45°C operação / Resiste a limpeza até 80°C</td></tr>
+                                    <tr class="hover:bg-amber-50/50"><td class="py-3 px-6 font-medium text-stone-500">Vedação</td><td class="py-3 px-6 font-semibold text-choco">Silicone grau alimentício + junta injetada</td></tr>
+                                    <tr class="hover:bg-amber-50/50"><td class="py-3 px-6 font-medium text-stone-500">Fixação</td><td class="py-3 px-6 font-semibold text-choco">Clips e presilhas em Aço Inox 304</td></tr>
+                                    <tr class="hover:bg-amber-50/50"><td class="py-3 px-6 font-medium text-stone-500">Cor de Luz</td><td class="py-3 px-6 font-semibold text-choco">4000K Neutra (ideal para controle de cor) • IRC >80</td></tr>
+                                    <tr class="hover:bg-amber-50/50"><td class="py-3 px-6 font-medium text-stone-500">Potências</td><td class="py-3 px-6 font-semibold text-choco">18W (600mm) • 36W (1200mm) • 50W (1500mm)</td></tr>
+                                    <tr class="hover:bg-amber-50/50"><td class="py-3 px-6 font-medium text-stone-500">Vida Útil</td><td class="py-3 px-6 font-semibold text-choco">50.000h L70 • Garantia 3 anos</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. CONFORMIDADE -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto">
+                <span class="text-gold font-semibold tracking-widest text-sm">CONFORMIDADE E NORMAS</span>
+                <h2 class="text-3xl md:text-4xl font-bold text-choco mt-3">Feita para passar na auditoria</h2>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-6 mt-12">
+                <div class="p-8 rounded-3xl border-2 border-amber-200 bg-amber-50/50">
+                    <div class="w-10 h-10 rounded-xl bg-choco text-white flex items-center justify-center"><i data-lucide="shield"></i></div>
+                    <h3 class="font-bold text-xl text-choco mt-4">ANVISA</h3>
+                    <p class="text-sm text-stone-700 mt-2">Atende RDC 275/2002 e RDC 216/2004: luminárias com proteção adequada contra quebra e contaminação, superfícies lisas, laváveis, sem acúmulo de resíduos.</p>
+                </div>
+                <div class="p-8 rounded-3xl border-2 border-amber-200 bg-amber-50/50">
+                    <div class="w-10 h-10 rounded-xl bg-choco text-white flex items-center justify-center"><i data-lucide="award"></i></div>
+                    <h3 class="font-bold text-xl text-choco mt-4">MAPA</h3>
+                    <p class="text-sm text-stone-700 mt-2">Conformidade com regulamentos de BPF para alimentos: equipamentos resistentes à corrosão, vedados à umidade e projetados para higienização frequente.</p>
+                </div>
+                <div class="p-8 rounded-3xl border-2 border-amber-200 bg-amber-50/50">
+                    <div class="w-10 h-10 rounded-xl bg-choco text-white flex items-center justify-center"><i data-lucide="sun"></i></div>
+                    <h3 class="font-bold text-xl text-choco mt-4">NBR ISO 8995-1</h3>
+                    <p class="text-sm text-stone-700 mt-2">Projeto luminotécnico para níveis recomendados: 300-500 lux em produção e 500-750 lux em inspeção, com uniformidade e sem ofuscamento.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. BENEFÍCIOS -->
+    <section class="py-20 lg:py-28 bg-choco relative overflow-hidden">
+        <div class="absolute inset-0 hero-pattern opacity-10"></div>
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <span class="text-gold-light font-semibold tracking-widest text-sm">BENEFÍCIOS PARA LINHA DE CHOCOLATE</span>
+                    <h2 class="text-3xl md:text-4xl font-bold text-white mt-3">Mais segurança, mais qualidade, menos custo</h2>
+                    
+                    <div class="grid sm:grid-cols-2 gap-4 mt-10">
+                        <div class="bg-white/5 backdrop-blur border border-white/10 rounded-2xl p-5">
+                            <i data-lucide="thermometer-snowflake" class="w-6 h-6 text-gold"></i>
+                            <h4 class="text-white font-semibold mt-3">Não Aquece o Produto</h4>
+                            <p class="text-stone-300 text-sm mt-1">LED fria, sem IR. Mantém temperagem estável.</p>
+                        </div>
+                        <div class="bg-white/5 backdrop-blur border border-white/10 rounded-2xl p-5">
+                            <i data-lucide="palette" class="w-6 h-6 text-gold"></i>
+                            <h4 class="text-white font-semibold mt-3">Cor Fiel 4000K</h4>
+                            <p class="text-stone-300 text-sm mt-1">Neutro ideal para detectar bloom e variações.</p>
+                        </div>
+                        <div class="bg-white/5 backdrop-blur border border-white/10 rounded-2xl p-5">
+                            <i data-lucide="ban" class="w-6 h-6 text-gold"></i>
+                            <h4 class="text-white font-semibold mt-3">Zero Vidro</h4>
+                            <p class="text-stone-300 text-sm mt-1">Corpo e difusor em PC. Sem risco de quebra.</p>
+                        </div>
+                        <div class="bg-white/5 backdrop-blur border border-white/10 rounded-2xl p-5">
+                            <i data-lucide="sparkles" class="w-6 h-6 text-gold"></i>
+                            <h4 class="text-white font-semibold mt-3">Limpeza em Segundos</h4>
+                            <p class="text-stone-300 text-sm mt-1">Superfície lisa, IP69K, resiste a químicos.</p>
+                        </div>
+                        <div class="bg-white/5 backdrop-blur border border-white/10 rounded-2xl p-5">
+                            <i data-lucide="zap" class="w-6 h-6 text-gold"></i>
+                            <h4 class="text-white font-semibold mt-3">Economia 60%</h4>
+                            <p class="text-stone-300 text-sm mt-1">Substitui 2x36W por 36W LED eficiente.</p>
+                        </div>
+                        <div class="bg-white/5 backdrop-blur border border-white/10 rounded-2xl p-5">
+                            <i data-lucide="timer" class="w-6 h-6 text-gold"></i>
+                            <h4 class="text-white font-semibold mt-3">50.000 Horas</h4>
+                            <p class="text-stone-300 text-sm mt-1">Menos trocas, menos parada de linha.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Depoimento -->
+                <div class="lg:pl-10">
+                    <div class="bg-gradient-to-br from-[#D4A017] to-[#b8860b] rounded-[2rem] p-[1px] shadow-2xl">
+                        <div class="bg-stone-900 rounded-[2rem] p-8 md:p-10">
+                            <i data-lucide="quote" class="w-10 h-10 text-gold/50"></i>
+                            <p class="text-xl md:text-2xl text-white leading-relaxed mt-6 font-medium">“Após a troca para as herméticas da Cido, zeramos os apontamentos da auditoria na iluminação e reduzimos 62% do consumo da sala de embalagem. A limpeza agora é feita com jato sem desligar o setor.”</p>
+                            <div class="mt-8 flex items-center gap-4">
+                                <div class="w-12 h-12 rounded-full bg-gold/20 flex items-center justify-center text-gold font-bold">CM</div>
+                                <div>
+                                    <p class="text-white font-semibold">Carlos M.</p>
+                                    <p class="text-stone-400 text-sm">Gerente de Manutenção • Indústria de Chocolates Artesanais – SP</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. APLICAÇÕES -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl md:text-4xl font-bold text-choco text-center">Onde instalar na sua fábrica</h2>
+            <div class="grid md:grid-cols-5 gap-4 mt-12">
+                <div class="group relative overflow-hidden rounded-3xl bg-stone-50 p-6 border border-stone-200 hover:shadow-lg transition">
+                    <i data-lucide="flame" class="w-8 h-8 text-gold"></i>
+                    <h4 class="font-bold text-choco mt-4">Conchagem</h4>
+                    <p class="text-xs text-stone-600 mt-1">Resiste a calor e vapor (40-60°C)</p>
+                </div>
+                <div class="group relative overflow-hidden rounded-3xl bg-stone-50 p-6 border border-stone-200 hover:shadow-lg transition">
+                    <i data-lucide="thermometer" class="w-8 h-8 text-gold"></i>
+                    <h4 class="font-bold text-choco mt-4">Temperagem</h4>
+                    <p class="text-xs text-stone-600 mt-1">Luz neutra 4000K para brilho</p>
+                </div>
+                <div class="group relative overflow-hidden rounded-3xl bg-stone-50 p-6 border border-stone-200 hover:shadow-lg transition">
+                    <i data-lucide="package" class="w-8 h-8 text-gold"></i>
+                    <h4 class="font-bold text-choco mt-4">Embalagem</h4>
+                    <p class="text-xs text-stone-600 mt-1">Sem contaminação, 500 lux</p>
+                </div>
+                <div class="group relative overflow-hidden rounded-3xl bg-stone-50 p-6 border border-stone-200 hover:shadow-lg transition">
+                    <i data-lucide="snowflake" class="w-8 h-8 text-gold"></i>
+                    <h4 class="font-bold text-choco mt-4">Câmara Fria</h4>
+                    <p class="text-xs text-stone-600 mt-1">Opera a -20°C sem condensar</p>
+                </div>
+                <div class="group relative overflow-hidden rounded-3xl bg-stone-50 p-6 border border-stone-200 hover:shadow-lg transition">
+                    <i data-lucide="truck" class="w-8 h-8 text-gold"></i>
+                    <h4 class="font-bold text-choco mt-4">Expedição</h4>
+                    <p class="text-xs text-stone-600 mt-1">IP66 contra poeira e umidade</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. DIFERENCIAIS -->
+    <section class="py-20 bg-[#F9F5F0]">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <span class="text-gold font-semibold tracking-widest text-sm">DIFERENCIAIS CIDO</span>
+                    <h2 class="text-3xl md:text-4xl font-bold text-choco mt-3">Quem entende de fábrica de chocolate</h2>
+                    <div class="mt-8 space-y-5">
+                        <div class="flex gap-4"><div class="w-11 h-11 rounded-xl bg-choco text-white flex items-center justify-center shrink-0"><i data-lucide="factory"></i></div><div><h4 class="font-bold text-choco">Fabricação Própria no Brasil</h4><p class="text-stone-600 text-sm">Controle de qualidade, peças de reposição imediatas.</p></div></div>
+                        <div class="flex gap-4"><div class="w-11 h-11 rounded-xl bg-choco text-white flex items-center justify-center shrink-0"><i data-lucide="headset"></i></div><div><h4 class="font-bold text-choco">Suporte Técnico em SP</h4><p class="text-stone-600 text-sm">Atendimento direto com Jose Aparecido Silva Cido.</p></div></div>
+                        <div class="flex gap-4"><div class="w-11 h-11 rounded-xl bg-choco text-white flex items-center justify-center shrink-0"><i data-lucide="rocket"></i></div><div><h4 class="font-bold text-choco">Entrega Rápida</h4><p class="text-stone-600 text-sm">Estoque para projetos urgentes e paradas programadas.</p></div></div>
+                        <div class="flex gap-4"><div class="w-11 h-11 rounded-xl bg-choco text-white flex items-center justify-center shrink-0"><i data-lucide="ruler"></i></div><div><h4 class="font-bold text-choco">Projeto Luminotécnico Gratuito</h4><p class="text-stone-600 text-sm">Simulação Dialux conforme NBR ISO 8995-1 para sua planta.</p></div></div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-3xl p-8 border border-stone-200 shadow-xl">
+                    <h3 class="font-bold text-xl text-choco">Pronto para a próxima auditoria?</h3>
+                    <p class="text-stone-600 mt-2">Envie a planta baixa ou fotos do setor. Devolvemos em 24h com o projeto e ROI de economia.</p>
+                    <ul class="mt-6 space-y-2 text-sm">
+                        <li class="flex gap-2"><i data-lucide="check" class="w-4 h-4 text-green-600 mt-0.5"></i> Levantamento sem compromisso</li>
+                        <li class="flex gap-2"><i data-lucide="check" class="w-4 h-4 text-green-600 mt-0.5"></i> Teste em 1 linha piloto</li>
+                        <li class="flex gap-2"><i data-lucide="check" class="w-4 h-4 text-green-600 mt-0.5"></i> Laudo fotométrico e IP</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. CTA -->
+    <section class="py-20 bg-choco-dark relative overflow-hidden">
+        <div class="absolute inset-0 hero-pattern opacity-20"></div>
+        <div class="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div class="inline-flex items-center gap-2 bg-gold/20 border border-gold/30 text-gold-light px-4 py-1.5 rounded-full text-xs font-medium mb-6">
+                AGENDA ABERTA
+            </div>
+            <h2 class="text-4xl md:text-5xl font-extrabold text-white leading-tight">Agende uma visita técnica sem custo</h2>
+            <p class="mt-4 text-lg text-stone-300 max-w-2xl mx-auto">Vamos até sua fábrica avaliar os pontos críticos, medir iluminância atual e apresentar a solução hermética ideal para cada área.</p>
+            
+            <div class="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="https://wa.me/5511999999999?text=Olá%20Cido%2C%20quero%20agendar%20visita%20técnica%20para%20luminárias%20herméticas%20na%20indústria%20de%20chocolate" target="_blank" class="inline-flex items-center justify-center gap-2 bg-gold hover:bg-[#b8860b] text-white font-bold px-8 py-4 rounded-2xl transition-all shadow-lg shadow-black/30 text-lg">
+                    <i data-lucide="whatsapp" class="w-5 h-5"></i>
+                    Falar no WhatsApp Agora
+                </a>
+                <a href="https://instagram.com/mktcidoveleiros" target="_blank" class="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur border border-white/20 text-white font-semibold px-8 py-4 rounded-2xl transition-all">
+                    <i data-lucide="instagram" class="w-5 h-5"></i>
+                    @mktcidoveleiros
+                </a>
+            </div>
+            <p class="mt-6 text-sm text-stone-400">Atendimento em todo o Brasil • Projetos sob medida</p>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="py-8 bg-[#1C1310] border-t border-stone-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-4">
+            <div class="flex items-center gap-3">
+                <div class="w-8 h-8 bg-gold rounded-lg flex items-center justify-center">
+                    <i data-lucide="lightbulb" class="w-4 h-4 text-choco-dark"></i>
+                </div>
+                <div>
+                    <p class="text-white font-semibold leading-none">Jose Aparecido Silva Cido</p>
+                    <p class="text-stone-500 text-xs leading-none">mktcidoveleiros • Iluminação Industrial</p>
+                </div>
+            </div>
+            <p class="text-stone-500 text-xs">© 2025 Proposta Comercial Luminárias Herméticas LED. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float -->
+    <a href="https://wa.me/5511999999999?text=Proposta%20Luminárias%20Chocolate" target="_blank" class="fixed bottom-6 right-6 w-14 h-14 bg-[#25D366] rounded-full shadow-2xl flex items-center justify-center hover:scale-110 transition-transform z-50">
+        <i data-lucide="message-circle" class="w-7 h-7 text-white"></i>
+    </a>
+
+    <script>
+        lucide.createIcons();
+    </script>
+<script>(function(){document.addEventListener("click",function(e){var a=e.target.closest("[data-product-id]");if(!a)return;e.preventDefault();var pid=a.getAttribute("data-product-id");if(pid)parent.postMessage({type:"ecto-artifact-link-click",productId:pid},"*")})})();</script>
+</body>
+</html>
